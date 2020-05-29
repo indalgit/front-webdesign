@@ -1,0 +1,313 @@
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    color: #555e6c;
+    font-size: 14px;
+}
+
+.container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+ul {
+    background-color: blue;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    padding: 8px 10px;
+}
+
+hr.new1 {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #f4f3f6;
+    width: 100%;
+}
+
+.nav { 
+    float: left;
+    color: #ccd1d7;
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
+}
+
+.patch { 
+    font-weight: bold;
+    color:#1a2939;
+}
+
+.depo {
+    color:#47a8d1;
+}
+
+.img {
+    margin-left: 550px;
+    margin-top:-20px;
+    overflow: hidden;
+}
+
+img {
+    border-radius: 25px;
+    height: 25px;
+    width: 25px;
+}
+
+
+.btn-primary {
+    background-color:#4ecb73;
+    color: #e5fdf9;
+    height: 45px;
+    width: 145px;
+    border-radius: 8px;
+    float: right;
+    margin-left: 868px;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 15px
+}
+
+.btn-depo {
+    float: left;
+}
+
+.head3 {
+    color: #313e4c;
+    margin-top: 5px;
+    font-weight:normal;
+}
+
+.table {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+}
+
+th {
+    padding: 10px 0px;
+    background-color: #f9fbfc;
+    font-size: 10px;
+    color:#9aa3b0;
+    letter-spacing: 1px;
+}
+
+td {
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+.line {
+    border-bottom: 1px solid #f4f3f6;
+}
+
+th.row1 {
+    color:#1e2b3b;
+    padding-right:200px;
+    padding-left: 8px;
+}
+    
+th.row2{
+    color:#1e2b3b;
+    padding-right: 195px;
+    padding-left: 8px;
+}
+    
+td img {
+    float: left;
+    margin-left: 2px;
+    padding: 9px;
+    height: 35px;
+    width: 35px;
+}
+    
+.round-img {
+    height: 25px;
+    width: 25px;
+}
+
+.round-img-over{
+    height: 25px;
+    width: 25px;
+    left: 0px;
+    position: relative;
+    
+}
+
+.round-img-over2{
+        height: 25px;
+        width: 25px;
+        left: -25px;
+       position: relative;
+        
+}
+
+span {
+    font-size: 9px;
+    color: #abb1bb;
+}
+
+.name {
+    font-size: 15px;
+    color: #47a8d1;
+}
+
+h3 {
+    color:#8a96a0;
+    margin-bottom: -35px;
+    margin-top: 40px;
+}
+
+  
+.comment {
+    width: 60px;
+    height: 27px;
+    background:#fbe0f5;
+    position: relative;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 12px;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-top: -54px;
+    float: left;
+}
+
+.comment:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 4px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 5px solid #fbe0f5;
+    border-bottom: 10px solid transparent;
+}
+
+.comment p{
+    color:#de89ce;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.next {
+    color:black;
+    text-decoration: none;
+    margin-left:60px;
+    size: 30px;
+}
+
+.tab2 {
+    margin-top:50px;
+}
+
+.arrow {
+    border: solid gray;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    height: 4px;
+    width: 4px;
+    float: right;
+}
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid gray;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 5px;
+    padding: 1.6px 1.6px;
+    height: 1px;
+    width: 1px;
+}
+
+.chart {
+    display: block;
+  }
+
+  .chart2 {
+    display: block;
+    margin-bottom: -18px;
+  }
+  
+  .bar {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    border: 0px solid #000;
+    border-radius: 1px;
+    margin-bottom: -10px;
+  }
+  
+  .color-25 {
+    background:#48bc79;
+  }
+  
+  .color-50 {
+    background:#eac147;
+  }
+
+ 
+  .color-100 {
+    background:#c3cbd7;
+  }
+  
+  .color-150 { 
+    background:#c3cbd7;
+  }
+
+  .color-200  {
+    background:#c3cbd7;
+  }
+
+  .color-1 {
+    background:#de6fc7;
+  }
+
+  .color-2 { 
+    background:#de6fc7;
+  }
+
+  .color-3 {
+    background:#eac147;
+  }
+  .color-4{
+    background:#c3cbd7;
+  }
+  .color-5{
+    background:#e6e9f2;
+  }
+  
+  .color-6 { 
+    background:#e6e9f2;
+  }
+
+  .color-7 {
+    background:#e6e9f2;
+  }
+
+  .color-8{
+    background:#e6e9f2;
+  }
+
