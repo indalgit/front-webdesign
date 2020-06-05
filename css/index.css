@@ -4,7 +4,8 @@ body {
     font-weight: bold;
     color: #555e6c;
     font-size: 14px;
-    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 .container {
