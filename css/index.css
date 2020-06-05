@@ -4,6 +4,7 @@ body {
     font-weight: bold;
     color: #555e6c;
     font-size: 14px;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .container {
@@ -47,7 +48,7 @@ li {
 
 .nav-img {
     float:right;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 img {
@@ -64,7 +65,7 @@ img {
     width: 145px;
     border-radius: 8px;
     float: right;
-    margin-left: 868px;
+    margin-left: 875px;
     font-weight: bold;
     border: none;
     margin-bottom: 15px
@@ -75,9 +76,9 @@ img {
 }
 
 .header-text {
-    color: #313e4c;
+    color: #1f2c3c;
     margin-top: 5px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .table {
@@ -117,8 +118,12 @@ th.pl-8 {
     padding-left: 8px;
 }
 
-th.color-text {
+th.text-black {
     color: #1e2b3b;
+}
+
+th.pr-198 {
+    padding-right: 185px;
 }
    
   
@@ -174,8 +179,8 @@ h3 {
     -moz-border-radius: 15px;
     -webkit-border-radius: 12px;
     border-radius: 5px;
-    margin-left: 200px;
-    margin-top: -54px;
+    margin-left: 145px;
+    margin-top: -45px;
     float: left;
 }
 
@@ -206,7 +211,7 @@ h3 {
     size: 30px;
 }
 
-.second-table {
+.mt-50 {
     margin-top: 50px;
 }
 
@@ -240,11 +245,12 @@ h3 {
 
 .chart {
     display: block;
+    margin-top: -12px;
   }
 
   .chart-gray {
     display: block;
-    margin-bottom: -18px;
+    margin-bottom: -8px;
   }
   
   .bar {
@@ -285,5 +291,29 @@ h3 {
   .color-white-gray {
     background: #e6e9f2;
   }
-  
 
+  .line-height {
+      line-height: 0.9;
+
+  }
+  
+  .comment-round {
+        background: #e5dbfe;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        border-radius: 12px;
+        height: 25px;
+        width: 25px;
+        left: -12px;
+        top: 10px;
+        position: relative;
+        float: left;
+}
+
+.comment-round p {
+text-align: center;
+color: #7561c1;
+font-size: 10px;
+margin-top:5px;
+font-weight: bold;
+}
